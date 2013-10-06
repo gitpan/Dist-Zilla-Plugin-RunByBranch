@@ -1,0 +1,24 @@
+---
+abstract: "Run external commands at specific phases of Dist::Zilla on regex'd Git branches"
+author:
+  - 'Matt Finkel <finkel.matt@gmail.com> L<http://mfinkel.net/>'
+build_requires:
+  Path::Class: 0
+  Test::Git: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-Plugin-RunByBranch
+requires:
+  Dist::Zilla::Plugin::Git: 0
+  Dist::Zilla::Plugin::Run: 0
+version: 0.0.1
+x_contributors:
+  - 'Matt Finkel <finkel.matt@gmail.com>'
+  - 'Matt Finkel <matthew.finkel@streetlinks.com>'
