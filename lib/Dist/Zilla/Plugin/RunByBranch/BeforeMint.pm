@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::RunByBranch::BeforeMint;
 {
-  $Dist::Zilla::Plugin::RunByBranch::BeforeMint::VERSION = '0.0.1';
+  $Dist::Zilla::Plugin::RunByBranch::BeforeMint::VERSION = '0.2';
 }
 
 use Moose;

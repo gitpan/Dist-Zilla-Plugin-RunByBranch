@@ -18,7 +18,4 @@ name: Dist-Zilla-Plugin-RunByBranch
 requires:
   Dist::Zilla::Plugin::Git: 0
   Dist::Zilla::Plugin::Run: 0
-version: 0.0.1
-x_contributors:
-  - 'Matt Finkel <finkel.matt@gmail.com>'
-  - 'Matt Finkel <matthew.finkel@streetlinks.com>'
+version: 0.2

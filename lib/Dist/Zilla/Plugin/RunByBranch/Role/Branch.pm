@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::RunByBranch::Role::Branch;
 {
-  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.0.1';
+  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.2';
 }
 
 #ABSTRACT: Dist::Zilla role to run commands by Git branch regex
@@ -42,7 +42,7 @@ around run_cmd => sub {
 
 =head1 DESCRIPTION
 
-Role surrounds run_cmd call of L<Dist::Zilla::Plugin::Run>
+Role that surrounds run_cmd call of L<Dist::Zilla::Plugin::Run>
 
 =head1 SEE ALSO
 
