@@ -1,8 +1,10 @@
+CHANGES
 LICENSE
 MANIFEST
 META.yml
 Makefile.PL
 README
+coveralls.yml
 dist.ini
 lib/Dist/Zilla/Plugin/RunByBranch.pm
 lib/Dist/Zilla/Plugin/RunByBranch/AfterBuild.pm
