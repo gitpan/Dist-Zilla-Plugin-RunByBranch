@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::RunByBranch;
 {
-  $Dist::Zilla::Plugin::RunByBranch::VERSION = '0.03';
+  $Dist::Zilla::Plugin::RunByBranch::VERSION = '0.21';
 }
 
 # ABSTRACT: Run external commands at specific phases of Dist::Zilla on regex'd Git branches

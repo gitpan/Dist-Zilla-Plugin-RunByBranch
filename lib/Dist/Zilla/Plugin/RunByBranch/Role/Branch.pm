@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::RunByBranch::Role::Branch;
 {
-  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.03';
+  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.21';
 }
 
 #ABSTRACT: Dist::Zilla role to run commands by Git branch regex
