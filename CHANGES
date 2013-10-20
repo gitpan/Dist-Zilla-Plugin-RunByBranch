@@ -3,8 +3,14 @@ Changes from 2012-10-20 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2013-10-20 01:14:18 +0000
+version 0.211 at 2013-10-20 01:19:46 +0000
 ------------------------------------------
+
+  Change: 59d31d1d849c0980497c1d5166e302d84691e38c
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-20 01:19:46 +0000
+
+    Add first version to make up for daft 
 
   Change: 42a30921c49f69314b9d0042007f1b5a9a6426da
   Author: Matt Finkel <finkel.matt@gmail.com>
