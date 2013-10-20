@@ -20,15 +20,28 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Dist::Zilla::Plugin::RunByBranch",
   "PREREQ_PM" => {
-    "Dist::Zilla::Plugin::Git" => 0,
-    "Dist::Zilla::Plugin::Run" => 0
+    "Dist::Zilla::Plugin::Run::AfterBuild" => 0,
+    "Dist::Zilla::Plugin::Run::AfterMint" => 0,
+    "Dist::Zilla::Plugin::Run::AfterRelease" => 0,
+    "Dist::Zilla::Plugin::Run::BeforeBuild" => 0,
+    "Dist::Zilla::Plugin::Run::BeforeRelease" => 0,
+    "Dist::Zilla::Plugin::Run::Release" => 0,
+    "Dist::Zilla::Plugin::Run::Test" => 0,
+    "Dist::Zilla::Role::Git::Repo" => 0,
+    "Moose" => 0,
+    "Moose::Role" => 0,
+    "namespace::autoclean" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "Dist::Zilla::Tester" => 0,
     "Path::Class" => 0,
     "Test::Git" => 0,
-    "Test::More" => 0
+    "Test::More" => 0,
+    "lib" => 0
   },
-  "VERSION" => "0.21",
+  "VERSION" => "0.001",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -1,6 +1,9 @@
 package Dist::Zilla::Plugin::RunByBranch::Role::Branch;
+BEGIN {
+  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::AUTHORITY = 'cpan:FFFINKEL';
+}
 {
-  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.21';
+  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.001';
 }
 
 #ABSTRACT: Dist::Zilla role to run commands by Git branch regex
@@ -40,6 +43,21 @@ around run_cmd => sub {
     }
 };
 
+
+1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Dist::Zilla::Plugin::RunByBranch::Role::Branch - Dist::Zilla role to run commands by Git branch regex
+
+=head1 VERSION
+
+version 0.001
+
 =head1 DESCRIPTION
 
 Role that surrounds run_cmd call of L<Dist::Zilla::Plugin::Run>
@@ -48,6 +66,15 @@ Role that surrounds run_cmd call of L<Dist::Zilla::Plugin::Run>
 
 L<Dist::Zilla::Plugin::Run> L<Dist::Zilla::Plugin::Git>
 
-=cut
+=head1 AUTHOR
 
-1;
+Matt Finkel <finkel.matt@gmail.com> L<http://mfinkel.net/>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Matt Finkel.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

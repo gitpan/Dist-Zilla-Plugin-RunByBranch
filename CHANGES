@@ -1,10 +1,60 @@
 ==================================================
-Changes from 2012-10-11 00:00:00 +0000 to present.
+Changes from 2012-10-20 00:00:00 +0000 to present.
 ==================================================
 
------------------------------------------
-version 0.21 at 2013-10-11 01:33:57 +0000
------------------------------------------
+------------------------------------------
+version 0.001 at 2013-10-20 01:14:18 +0000
+------------------------------------------
+
+  Change: 42a30921c49f69314b9d0042007f1b5a9a6426da
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-20 01:13:18 +0000
+
+    Remove unnecessary plugin 
+
+  Change: af3068ff1ae32b7ac085dfc9aa537b5222600b69
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-20 01:09:37 +0000
+
+    Fix bug in test plugin 
+
+  Change: 6f91b9e437e1564bd465e4ce093562461f39e42f
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-20 01:07:05 +0000
+
+    Add coveralls 
+
+  Change: 834255e2df7108335efe21cc14612cfc796e85a1
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-20 01:06:20 +0000
+
+    Update pod, no functional changes 
+
+  Change: e61b0638b1b25d4d0c93e11860b48c9a11a5b45f
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-20 01:05:28 +0000
+
+    Update dist.ini with personal plugin bundle 
+
+  Change: ce43eee297cd49701b6895305dae352c2634651e
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-11 17:24:12 +0000
+
+    Add readme.md with travis-ci and coveralls badges 
+
+  Change: 06fc2472939db567365d2b831133fa288d99a2c8
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-11 16:29:36 +0000
+
+    Remove extra? cover line 
+
+  Change: 8a508132b1bff91115990ed1c6648ac07d7e0d84
+  Author: Matt Finkel <finkel.matt@gmail.com>
+  Date : 2013-10-11 16:07:52 +0000
+
+    Update travis-ci config
+
+    Add cover report for coveralls 
 
   Change: 6bf7c2ec0c8cccbbeecf1b660f3026062544e307
   Author: Matt Finkel <finkel.matt@gmail.com>

@@ -3,9 +3,11 @@ abstract: "Run external commands at specific phases of Dist::Zilla on regex'd Gi
 author:
   - 'Matt Finkel <finkel.matt@gmail.com> L<http://mfinkel.net/>'
 build_requires:
+  Dist::Zilla::Tester: 0
   Path::Class: 0
   Test::Git: 0
   Test::More: 0
+  lib: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -16,9 +18,18 @@ meta-spec:
   version: 1.4
 name: Dist-Zilla-Plugin-RunByBranch
 requires:
-  Dist::Zilla::Plugin::Git: 0
-  Dist::Zilla::Plugin::Run: 0
-version: 0.21
-x_contributors:
-  - 'Matt Finkel <finkel.matt@gmail.com>'
-  - 'Matt Finkel <matthew.finkel@streetlinks.com>'
+  Dist::Zilla::Plugin::Run::AfterBuild: 0
+  Dist::Zilla::Plugin::Run::AfterMint: 0
+  Dist::Zilla::Plugin::Run::AfterRelease: 0
+  Dist::Zilla::Plugin::Run::BeforeBuild: 0
+  Dist::Zilla::Plugin::Run::BeforeRelease: 0
+  Dist::Zilla::Plugin::Run::Release: 0
+  Dist::Zilla::Plugin::Run::Test: 0
+  Dist::Zilla::Role::Git::Repo: 0
+  Moose: 0
+  Moose::Role: 0
+  namespace::autoclean: 0
+  strict: 0
+  warnings: 0
+version: 0.001
+x_authority: cpan:FFFINKEL
