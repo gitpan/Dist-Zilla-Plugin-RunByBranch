@@ -11,7 +11,7 @@ use warnings;
 
 Dist::Zilla::Plugin::RunByBranch - Run external commands at specific phases of Dist::Zilla on regex'd Git branches
 
-I am a terrible programmer.
+I am a very terrible programmer and user of words.
 
 =head1 SYNOPSIS
 

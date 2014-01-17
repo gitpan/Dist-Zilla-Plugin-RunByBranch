@@ -3,7 +3,7 @@ BEGIN {
   $Dist::Zilla::Plugin::RunByBranch::AUTHORITY = 'cpan:FFFINKEL';
 }
 {
-  $Dist::Zilla::Plugin::RunByBranch::VERSION = '0.213';
+  $Dist::Zilla::Plugin::RunByBranch::VERSION = '0.214';
 }
 
 # ABSTRACT: Run external commands at specific phases of Dist::Zilla on regex'd Git branches
@@ -23,7 +23,7 @@ Dist::Zilla::Plugin::RunByBranch - Run external commands at specific phases of D
 
 =head1 VERSION
 
-version 0.213
+version 0.214
 
 =head1 SYNOPSIS
 
@@ -52,7 +52,7 @@ determines on which Git branch the command should be run.
 
 Dist::Zilla::Plugin::RunByBranch - Run external commands at specific phases of Dist::Zilla on regex'd Git branches
 
-I am a terrible programmer.
+I am a very terrible programmer and user of words.
 
 =head1 SEE ALSO
 

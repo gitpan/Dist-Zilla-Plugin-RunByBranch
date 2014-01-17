@@ -3,7 +3,7 @@ BEGIN {
   $Dist::Zilla::Plugin::RunByBranch::Test::AUTHORITY = 'cpan:FFFINKEL';
 }
 {
-  $Dist::Zilla::Plugin::RunByBranch::Test::VERSION = '0.213';
+  $Dist::Zilla::Plugin::RunByBranch::Test::VERSION = '0.214';
 }
 
 use Moose;
@@ -23,7 +23,7 @@ Dist::Zilla::Plugin::RunByBranch::Test
 
 =head1 VERSION
 
-version 0.213
+version 0.214
 
 =head1 AUTHOR
 
