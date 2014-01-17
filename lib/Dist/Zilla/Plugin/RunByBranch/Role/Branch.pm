@@ -3,7 +3,7 @@ BEGIN {
   $Dist::Zilla::Plugin::RunByBranch::Role::Branch::AUTHORITY = 'cpan:FFFINKEL';
 }
 {
-  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.212';
+  $Dist::Zilla::Plugin::RunByBranch::Role::Branch::VERSION = '0.213';
 }
 
 #ABSTRACT: Dist::Zilla role to run commands by Git branch regex
@@ -56,7 +56,7 @@ Dist::Zilla::Plugin::RunByBranch::Role::Branch - Dist::Zilla role to run command
 
 =head1 VERSION
 
-version 0.212
+version 0.213
 
 =head1 DESCRIPTION
 

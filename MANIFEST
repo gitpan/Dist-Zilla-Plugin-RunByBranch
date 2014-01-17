@@ -4,7 +4,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
-README.md
+README.pod
 dist.ini
 lib/Dist/Zilla/Plugin/RunByBranch.pm
 lib/Dist/Zilla/Plugin/RunByBranch/AfterBuild.pm
